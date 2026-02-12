@@ -1,14 +1,18 @@
 {
-  "name": "my-project",
-  "description": "A new project created with ShipMe",
+  "name": "my-test-repo-3",
+  "description": "I want to build a web and mobile app which will scale to millions of users, no budget limit",
   "stack": {
     "framework": "Next.js",
     "database": "Supabase",
-    "hosting": "Netlify",
-    "auth": ["github"]
+    "hosting": "Vercel",
+    "additional": [
+      "Stripe",
+      "NextAuth.js",
+      "Tailwind CSS"
+    ]
   },
-  "createdAt": "2026-02-05T00:00:00.000Z",
+  "createdAt": "2026-02-12T04:56:15.878Z",
   "createdBy": "shipme.dev",
   "version": "2.0.0",
-  "_note": "This file is automatically populated by shipme.dev when creating your repository"
+  "provisioningToken": "e9616947-c1a0-4c08-aba4-a733a2d87f3c"
 }
